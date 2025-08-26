@@ -118,16 +118,6 @@ monogatari.script ({
 
 	],
 
-	'Coffee': [
-		'show character minion drinking with fadeIn',
-		'show background cafe',
-		'minion Coffee sounds great!',
-		function() {
-			monogatari.storage().happiness_level = 10;
-		},
-		'jump Lunch',
-
-	],
 
 	
 

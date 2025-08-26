@@ -54,16 +54,16 @@ monogatari.characters ({
 
 monogatari.script ({
 	// The game starts here.
-	'Park': [
-		'show character minion happy at centre with fadeIn',
-		'show background park',
-		'minion Park seems nice!',
+    
+	'Coffee': [
+		'show character minion drinking with fadeIn',
+		'show background cafe',
+		'minion Coffee sounds great!',
 		function() {
-			monogatari.storage().happiness_level = 4;
+			monogatari.storage().happiness_level = 10;
 		},
 		'jump Lunch',
 
 	],
-
 
 });
